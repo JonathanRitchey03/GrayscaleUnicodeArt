@@ -7,7 +7,7 @@
 1. Please feel free to fork the project for your projects as an instructor.
 
 ## Screenshot
-[![Alt text for your video](https://github.com/JonathanRitchey03/GrayscaleUnicodeArt.git/UnicodeMovie.gif)](https://github.com/JonathanRitchey03/GrayscaleUnicodeArt.git/UnicodeMovie.gif)
+[![Screenshot](https://github.com/JonathanRitchey03/GrayscaleUnicodeArt/blob/master/UnicodeMovie.gif)]
 
 ## Background
 This repo accompanies the meetup event held on October 17, 2015:
