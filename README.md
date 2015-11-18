@@ -14,7 +14,7 @@ java -jar UnicodeMovie.jar
 ## Handout
 An instructional handout for the project suitable for workshops and teaching is at:
 
-[https://github.com/JonathanRitchey03/GrayscaleUnicodeArt/raw/master/Handout.pdf](https://github.com/JonathanRitchey03/GrayscaleUnicodeArt/raw/master/Handout.pdf)
+[https://github.com/JonathanRitchey03/GrayscaleUnicodeArt/blob/master/Handout.pdf](https://github.com/JonathanRitchey03/GrayscaleUnicodeArt/blob/master/Handout.pdf)
 
 ## Applications
 1. This repo contains java code to support a grayscale canvas using unicode characters. It implements a scrolling animation using automata with an averaging method applied to each one, based on the neighbors above, which creates a smooth scrolling effect.
