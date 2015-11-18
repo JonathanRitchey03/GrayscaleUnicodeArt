@@ -25,7 +25,7 @@ An instructional handout for the project suitable for workshops and teaching is 
 ## Background
 This repo accompanies the meetup event held on October 17, 2015:
 
-http://www.meetup.com/Weekly-Tech-Interview-Study-Group/events/226064982/
+[http://www.meetup.com/Weekly-Tech-Interview-Study-Group/events/226064982/](http://www.meetup.com/Weekly-Tech-Interview-Study-Group/events/226064982/)
 
 The meetup received 4.5 out 5 stars and was a huge hit.
 
