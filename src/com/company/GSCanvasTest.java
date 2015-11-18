@@ -1,35 +1,34 @@
 package com.company;
 
-import org.junit.Test;
+import junit.framework.TestCase;
 
-public class GSCanvasTest {
+public class GSCanvasTest extends TestCase {
 
-    @Test
+    public void setUp() throws Exception {
+        super.setUp();
+
+    }
+
     public void testSet() throws Exception {
 
     }
 
-    @Test
     public void testFillRect() throws Exception {
 
     }
 
-    @Test
     public void testGet() throws Exception {
 
     }
 
-    @Test
     public void testRender() throws Exception {
 
     }
 
-    @Test
     public void testGs2unicode() throws Exception {
 
     }
 
-    @Test
     public void testAverage() throws Exception {
 
     }
