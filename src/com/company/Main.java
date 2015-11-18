@@ -10,9 +10,7 @@ public class Main {
                 if ( random.nextInt(2) == 0 ) {
                     canvas.fillRect(random.nextInt(127), random.nextInt(40), random.nextInt(30), random.nextInt(30), (short) random.nextInt(127));
                 }
-                for (int j = 0; j < 2; j++) {
-                    canvas.average();
-                }
+                canvas.average();
                 System.out.print(canvas.render());
                 //pressAnyKeyToContinue();
                 try { Thread.sleep(50); } catch(InterruptedException e) {}

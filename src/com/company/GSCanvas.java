@@ -54,8 +54,10 @@ public class GSCanvas {
         short newArray[] = new short[mWidth * mHeight];
         for ( int y = 0; y < mHeight; y++ ) {
             for ( int x = 0; x < mWidth; x++ ) {
-                int sum = get(x-1,y-1) + get(x,y-1) + get(x+1,y-1) + get(x-1,y) + get(x+1,y) + get(x-1,y+1) + get(x,y+1) + get(x+1,y+1);
-                int average = sum / 8;
+                //int sum = get(x-1,y-1) + get(x,y-1) + get(x+1,y-1) + get(x-1,y) + get(x+1,y) + get(x-1,y+1) + get(x,y+1) + get(x+1,y+1);
+                int sum = get(x-1,y-1) + get(x,y-1) + get(x+1,y-1) + get(x-1,y) + get(x+1,y) + get(x-1,y+1) + get(x,y+1) + get(x+1,y+1)
+                        + get(x-1,y+2) + get(x,y+2) + get(x+1,y+2);
+                int average = sum / 11;
                 newArray[y*mWidth+x] = (short)average;
             }
         }
